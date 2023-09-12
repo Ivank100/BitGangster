@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitcardSyndicate</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main-container">
+    <header>
+        <nav>
+            <h2>BitCard Syndicate</h2>
+            <ul class="navlist">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">Wishlist</a></li>
+                <li><a href="./index.html">Why Us</a></li>
+                <li><a href="./index.html">Join</a></li>
+                <li><i id="discord-button"class='bx bxl-discord-alt'></i></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-Landing">
+        <div class="Home-Box">
+            <h3>BitCard <span>Syndicate</span></h3>
+            <h5>A Gangster Card Game</h5>
+            <button>Join the Waitlist</button>
+            <p>Already have an account? <span><u>sign in</u></span></p>
+        </div>
+        
+        
+    </div>
+</div>
+
+<div class="About-us-container">
+    <div class="About-us-content">
+        <h2 id="About-us-Header">Powered by Etheruem</h2>
+        <h2>A Strategic Card Game</h2>
+        <p>Proudly Powered by Etheruem, enter the immerse<br>
+        world of our gangsterverse, a multi-platform gaming experience<br>
+        Bitcard Syndicate draws theumatic influence from Real wordl gangsters<br>
+        combined with blockchain technology, we aim to bring you a joyful cardgame experience</p>
+    <div class="Aboutus-platform">
+        <h4>MacOS</h4>
+        <h4>Windows</h4><img src="./Assets/Icons/windowswhite.png">
+        <h4>Linux</h4><img src="./Assets/Icons/linux-512.png">
+    </div>
+
+    </div>
+</div>
+<div class="Card-Container">
+    <h2>Collect Legendary Gangsters!</h2>
+    <div class="Card-showcase">
+        <div>
+            <img class="card" src="./Assets/Gangster Cards/al capone_real.png" >
+        </div>
+        <div>
+            <img class="card"src="./Assets/Gangster Cards/capone_card.png">
+        </div>
+        <div>
+            <img class="card"src="./Assets/Gangster Cards/pablo escobar.png">
+        </div>
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="Newsletter">
+    <div class="Newsletter-form">
+    <form action="your_server_script.php" method="post">
+        <label for="email">Subscribe to our Newsletter:</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+
+
+</div>
+
+
+<script>
+    var countDownDate = new Date("Oct 9, 2024, 00:00:00").getTime();
+    var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+    }, 1000); // Add the interval in milliseconds (1000 ms = 1 second)</script>
+</body>
+</html>
